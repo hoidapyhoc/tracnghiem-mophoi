@@ -129,6 +129,7 @@ $(function () {
 
     $('#start-game').click(function(){
         $('#intro_screen').hide("fast");
+        $('.game_screen').show("fast");
         $('#outer-wrapper').show("fast");
         startGame();
 
